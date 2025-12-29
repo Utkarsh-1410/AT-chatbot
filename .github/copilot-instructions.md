@@ -1,30 +1,4 @@
-# Backend
-cd backend
-python -m venv venv
-venv\Scripts\Activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser  # Create admin user
-python manage.py runserver
-
-# Mobile (in new terminal)
-cd AstroTamilAssistant
-npm install
-npm start
-npm run android  # or: npm run ios# Backend
-cd backend
-python -m venv venv
-venv\Scripts\Activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser  # Create admin user
-python manage.py runserver
-
-# Mobile (in new terminal)
-cd AstroTamilAssistant
-npm install
-npm start
-npm run android  # or: npm run ios# AI Copilot Instructions for AstroTamil Customer Care Assistant
+# AI Copilot Instructions for AstroTamil Customer Care Assistant
 
 ## Architecture Overview
 
@@ -38,17 +12,23 @@ npm run android  # or: npm run ios# AI Copilot Instructions for AstroTamil Custo
 
 - **Default**: SQLite (`db.sqlite3`) for local development
 - **Production**: PostgreSQL via env vars: `POSTGRES_NAME`, `POSTGRES_USER`, `POSTGRES_PASSWORD`, `POSTGRES_HOST`, `POSTGRES_PORT`
-- **Models**: `chatbot/models.py` (Conversation, Message, HumanHandoffRequest), `faq/models.py` (FAQ with keyword-based search)
-- **Note**: FAQ model uses `django.contrib.postgres.ArrayField` for keywords; ensure postgres app is in `INSTALLED_APPS` even for SQLite
+- **Models**: 
+  - `chatbot/models.py`: Conversation (UUID PK, session_id), Message (UUID PK, ForeignKey to Conversation), HumanHandoffRequest (UUID PK, OneToOne with Conversation, status choices: pending/contacted/resolved)
+  - `faq/models.py`: FAQ (UUID PK, question, answer, keywords as JSONField, category)
+- **Note**: `django.contrib.postgres` app required in INSTALLED_APPS even for SQLite (imports used by models)
 
 ## Core AI Matching Algorithm
 
 Located in `backend/chatbot/ai_matcher.py`:
 - **Text preprocessing**: lowercase + normalize special characters + remove extra spaces
-- **Similarity calculation**: weighted average of token_sort_ratio (0.4), partial_ratio (0.3), token_set_ratio (0.3)
+- **Similarity calculation**: weighted average of token_sort_ratio (0.4), partial_ratio (0.3), token_set_ratio (0.3) using `fuzzywuzzy`
 - **Keyword matching**: extract non-stopword tokens >2 chars, score overlap against FAQ keywords
-- **Threshold**: `min_similarity_threshold = 0.6` (tunable via FAQMatcher constructor)
-- **NLTK dependencies**: punkt + stopwords downloaded on first run; can pre-download via `python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"`
+- **Threshold logic**: 
+  - ≥70% confidence → direct answer
+  - 60-69% confidence → clarification with partial answer
+  - <60% → fallback message suggesting human handoff
+- **NLTK dependencies**: punkt, punkt_tab, stopwords downloaded on first run; can pre-download via `python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords')"`
+- **FAQ model note**: Uses `JSONField` for keywords array (works with both SQLite and PostgreSQL)
 
 ## REST API Endpoints
 
@@ -82,28 +62,33 @@ npm start  # Starts Metro bundler; then npm run android/ios
 
 ## Project-Specific Patterns
 
-1. **Session-based conversations**: User identified by `session_id` (client-generated); persistent across app restarts via AsyncStorage
-2. **Multi-language support (English/Tamil)**: UI strings in `LANGUAGE_STRINGS` constant; language preference persisted in AsyncStorage; API receives language code per message
-3. **Human handoff flow**: If AI confidence <threshold OR user explicitly requests, collect name/phone/issue via HumanHandoffRequest → NotificationService alerts admin → agent contacts customer
-4. **CORS config**: `localhost:8081` + Django DEBUG mode for development; use env-based settings for prod
-5. **UUID primary keys**: All models use UUID for distributed system readiness; session_id is CharField (client-generated)
+1. **Session-based conversations**: User identified by `session_id` (client-generated); persistent across app restarts via AsyncStorage; **all conversations permanently stored in database**
+2. **Conversation persistence**: On app start, full conversation history loaded from backend via `/api/conversation-history/`; "New Chat" button creates new session while preserving old ones
+3. **Multi-language support (English/Tamil)**: UI strings in `LANGUAGE_STRINGS` constant; language preference persisted in AsyncStorage; API receives language code per message
+4. **Human handoff flow**: If AI confidence <threshold OR user explicitly requests, collect name/phone/issue via HumanHandoffRequest → NotificationService alerts admin → agent contacts customer
+5. **CORS config**: `localhost:8081` + Django DEBUG mode for development; use env-based settings for prod
+6. **UUID primary keys**: All models use UUID for distributed system readiness; session_id is CharField (client-generated) with db_index for fast lookups
+7. **Data preservation**: Admin interface prevents accidental deletion (only superusers can delete); messages are immutable once created; `on_delete=CASCADE` ensures referential integrity
 
 ## Integration Points
 
 - **Backend-Frontend communication**: JSON REST (DRF serializers in `chatbot/serializers.py` & `faq/serializers.py`)
-- **Chat flow**: Message → FAQMatcher.calculate_similarity() → FAQ database lookup → response + confidence score
+- **Chat flow**: Message → FAQMatcher.calculate_similarity() → FAQ database lookup → response + confidence score → **both user & AI messages saved to DB**
+- **History restoration**: On app launch → fetch `/api/conversation-history/?session_id=X` → populate message list with full conversation history
 - **Handoff escalation**: API creates HumanHandoffRequest → NotificationService.send_agent_notification() → email/SMS alerts
-- **Session persistence**: AsyncStorage in RN; generates UUID-like session_id on first app launch
+- **Session persistence**: AsyncStorage stores session_id in RN; generates UUID-like session_id on first app launch; preserved until user explicitly starts new chat
 - **Language switching**: Dropdown in ChatScreen header → updates AsyncStorage → next message uses new language
-- **Admin management**: Django admin at `/admin/` for CRUD on FAQs, conversations, handoff requests; bulk actions for status updates
+- **Admin management**: Django admin at `/admin/` for viewing conversations, messages, FAQs, handoff requests; enhanced with duration stats, message counts; deletion restricted to superusers only
 
 ## Common Gotchas
 
-- FAQ import script assumes cwd is backend/scripts when run (adjust paths for different locations)
-- postgres app required in INSTALLED_APPS even for SQLite (no-op but required for ArrayField import)
-- NLTK downloads happen at runtime on first chat request; can cause latency spike
-- RN `react-native-safe-area-context` required for iOS notch handling; `App.tsx` wraps all UI
-- Conversation.last_active updated on every message (good for session expiry detection)
+- FAQ import script (`backend/scripts/import_faqs.py`) uses relative paths from `backend/scripts/` directory - run from project root with `python backend/scripts/import_faqs.py` or adjust sys.path
+- `django.contrib.postgres` required in INSTALLED_APPS even for SQLite (imports used by models, no-op functionality)
+- NLTK downloads (punkt, punkt_tab, stopwords) happen at runtime on first chat request; causes latency spike - pre-download recommended
+- RN `react-native-safe-area-context` required for iOS notch handling; `App.tsx` wraps all screens
+- `Conversation.last_active` auto-updates on every message via `auto_now=True` (useful for session expiry detection)
+- Android emulator uses `10.0.2.2:8000` for localhost access (configured in `AstroTamilAssistant/src/config.ts`)
+- Auto-generated session_id if client doesn't provide one: `f"auto_{timezone.now().timestamp()}_{id(request)}"`
 
 ## Testing & Verification
 

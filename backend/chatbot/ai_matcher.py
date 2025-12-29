@@ -8,15 +8,17 @@ from typing import Dict, Optional, List
 # Download NLTK data if missing at runtime (Django startup or first call will handle it)
 try:
     nltk.data.find('tokenizers/punkt')
+    nltk.data.find('tokenizers/punkt_tab')
     nltk.data.find('corpora/stopwords')
 except LookupError:
     nltk.download('punkt')
+    nltk.download('punkt_tab')
     nltk.download('stopwords')
 
 class FAQMatcher:
     def __init__(self):
         self.stop_words = set(stopwords.words('english'))
-        self.min_similarity_threshold = 0.6
+        self.min_similarity_threshold = 0.7  # 70% fuzzy matching threshold
         self.keyword_weight = 0.3
         
     def preprocess_text(self, text: str) -> str:
@@ -132,7 +134,7 @@ class FAQMatcher:
         """Get response based on user query"""
         match = self.find_best_match(user_query)
         
-        if match and match['score'] >= 0.7:  # High confidence
+        if match and match['score'] >= 0.7:  # 70%+ confidence - direct answer
             return {
                 'success': True,
                 'response': match['faq'].answer,
@@ -141,7 +143,7 @@ class FAQMatcher:
                 'confidence': round(match['score'], 2),
                 'type': 'faq'
             }
-        elif match and match['score'] >= 0.5:  # Medium confidence
+        elif match and match['score'] >= 0.6:  # 60-70% confidence - clarification
             # Ask for clarification or provide partial answer
             return {
                 'success': True,

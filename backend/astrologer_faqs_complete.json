@@ -1,0 +1,1088 @@
+[
+  {
+    "question": "How do I register as an astrologer with AstroTamil?",
+    "answer": "Kindly visit our website www.astrotamil.co.in. End of the page you can see Become an Astrologer, click and Register.",
+    "keywords": "register, registration, sign up, join, become astrologer, how to register, how to join, apply, application",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "What documents are required for verification?",
+    "answer": "Your passport size photo, Aadhar front and back, PAN, astrology education certificate. If you are a traditional astrologer then no need of the certificate.",
+    "keywords": "documents, verification, required documents, what documents, documents needed, ID proof, aadhar, pan, certificate, passport photo",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "Is there any registration or service fee?",
+    "answer": "No registration fee. There is no any kind of fee at all for any kind of service at Astrotamil.",
+    "keywords": "fee, registration fee, service fee, charges, cost, payment, free, is it free, any fee, pricing",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "How long does it take to activate my profile?",
+    "answer": "Minimum one week to activate the profile. Maximum time depends on the situation.",
+    "keywords": "activate, activation, profile activation, how long, time taken, when will be activated, activation time, approval time",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "How to add my picture in my profile?",
+    "answer": "There are two types of pictures uploading in the App. First, the display picture and the second is profile Picture. Display picture - Send your picture to our admin. The admin only can add the display picture it in the backend. For the profile pictures, login to the astrologer app and 5 pictures can be added. This can be added and removed at anytime.",
+    "keywords": "picture, photo, image, profile picture, display picture, upload photo, add picture, profile photo, how to add photo",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "Can I sign up if I don't have GST/PAN yet?",
+    "answer": "GST is not mandatory but upto 20 lakhs transaction in a financial year. But, PAN is mandatory since TDS deduction will be there.",
+    "keywords": "GST, PAN, tax, TDS, documents, mandatory, required, can I join without PAN, can I join without GST",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "Is there an age limit for astrologers?",
+    "answer": "No. There is no age limit for the astrologers to join with Astrotamil. But the astrologers want to be technologically sound to handle consultation through Chat/Voice & Video format.",
+    "keywords": "age limit, age restriction, minimum age, maximum age, can old people join, can young people join",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "Can retired professionals also join?",
+    "answer": "Yes. The retired professionals also can join with Astrotamil. But the astrologers want to be technologically sound to handle consultation through Chat/Voice & Video format.",
+    "keywords": "retired, retirement, can retired join, retired professionals, old age, senior citizens",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "How will I know if my documents are approved?",
+    "answer": "After the backend verification, during the selection process you will get information from the Admin.",
+    "keywords": "documents approved, approval, verification status, when approved, document status, approval notification",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "Do you verify astrologers' skills, or is it only ID verification?",
+    "answer": "There will be two skill tests as astrologically and technologically other than ID verification.",
+    "keywords": "skill test, verification, skill verification, test, astrological test, technological test, how are skills verified",
+    "category": "Onboarding & Registration"
+  },
+  {
+    "question": "How will I receive consultation requests?",
+    "answer": "The astrologers will have their own mobile application. Login into that, make status into online. Then you will to get consultation requests from the customers.",
+    "keywords": "consultation requests, how to get customers, how to receive calls, consultation, requests, bookings, how consultations come",
+    "category": "Platform Usage"
+  },
+  {
+    "question": "Can I choose my availability or working hours?",
+    "answer": "Yes, you can. If you chose maximum hours then the chances of getting customer is high.",
+    "keywords": "availability, working hours, schedule, time, when to work, choose hours, set availability, working time",
+    "category": "Platform Usage"
+  },
+  {
+    "question": "Is there a mobile app/desktop portal for astrologers?",
+    "answer": "Only mobile app is available for the astrologers",
+    "keywords": "mobile app, desktop, portal, application, software, platform, is there app, is there desktop version",
+    "category": "Platform Usage"
+  },
+  {
+    "question": "Can I update my skills, specialization, or bio later?",
+    "answer": "Yes, you can. For this, you can contact the admin team. They will do the needful for you.",
+    "keywords": "update, edit, change, skills, specialization, bio, profile update, modify profile, edit skills",
+    "category": "Platform Usage"
+  },
+  {
+    "question": "How consultations are assigned (auto-match, manual, or customer choice)?",
+    "answer": "The consultations are assigned on the customer choice",
+    "keywords": "how consultations assigned, customer choice, auto match, manual assignment, how are consultations given",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "Do customers see my full profile before booking?",
+    "answer": "Yes, the customers will check the astrolers' profile, review, expertise, specilisation, the total minutes of services, rating, experience and language before they book for consultation.",
+    "keywords": "profile, customer see profile, what customers see, profile visibility, customer view, before booking",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "Can I refuse a consultation request if I'm not available?",
+    "answer": "If you are not available in any particular time, the switch your status to offline from online. If you are showing as online but not attending the calls then it will reduce the astrologers' overall performance rating.",
+    "keywords": "refuse, reject, decline, not available, can I refuse, can I reject, decline consultation",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "Will I get repeat customers?",
+    "answer": "Application is not restricting repeat customers. Repeat customers depends on your service experience with the customers.",
+    "keywords": "repeat customers, returning customers, regular customers, will customers come back, repeat business",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "What is the minimum consultation duration?",
+    "answer": "There is no such minimum period for consultation. It purely based on the customers' choice.",
+    "keywords": "minimum duration, minimum time, shortest consultation, how long, minimum minutes, duration",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "Can I provide video calls, or is it only audio/chat?",
+    "answer": "Video call facility also available. The price charging for video calls is more than the chat/ audio calls. Astrologers can enable/disable Chat, Voice & Video.",
+    "keywords": "video call, audio call, chat, video consultation, voice call, types of consultation, call types",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "If a customer disconnects early, do I still get paid?",
+    "answer": "The charges are on per minute basis. As per the connected time, it will be paid.",
+    "keywords": "disconnect, early disconnect, payment if disconnect, still get paid, customer disconnects, payment for disconnected call",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "What happens if I'm online but no consultations come?",
+    "answer": "To increase the numbers of consultations, you have to be more hours available in online. So, you will get more customers. Giving good customer care also will increase the chances of getting more consultations.",
+    "keywords": "no consultations, no calls, waiting online, why no customers, not getting calls, no bookings",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "Can I block a particular customer if needed?",
+    "answer": "Yes, you can block a customer if needed.",
+    "keywords": "block customer, block user, can I block, how to block, remove customer",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "Do I get details of customers' past consultations before speaking to them?",
+    "answer": "When you are speaking to a particular customer, his/hers chat history will be available there in the chat box.",
+    "keywords": "customer history, past consultations, chat history, previous consultations, customer details, consultation history",
+    "category": "Consultation & Customers"
+  },
+  {
+    "question": "What is the payment model (per minute, per consultation, or package)?",
+    "answer": "The payment model is on per minute basis not as per consultation or package.",
+    "keywords": "payment model, per minute, per consultation, package, how payment works, payment structure, earning model",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "How much commission does AstroTamil charge?",
+    "answer": "Our charge is not fixed but it's a floating model. It depends on various factors such as time and user. But astrologer can fix their own pricing. It depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. Example, starting with Rs.3 as minimum and the astrologer can fix any price maximum. In this slot, an astrologer can fix any price he/she wants. This is the best top rating which they will get it. We will not deduct anything form that. But 18% GST and 10% TDS will be deducted as per the govt norms. TDS will get added to Astrologers PAN card.",
+    "keywords": "commission, charges, fee, how much commission, platform fee, AstroTamil fee, deduction, what percentage, commission rate",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "When and how will I receive my payments?",
+    "answer": "Through the wallet system in the app, the astrologers can withdraw their earnings anytime.",
+    "keywords": "payment, when will I get paid, payment method, how to receive payment, payment schedule, withdrawal, wallet",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Can I track my earnings in real time?",
+    "answer": "Yes, you can track your earnings through the wallet facility and withdraw your payments during the bank working hours.",
+    "keywords": "track earnings, earnings, real time, wallet, balance, see earnings, check earnings, earnings tracking",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Do you provide GST invoices?",
+    "answer": "Yes we do as per the norms.",
+    "keywords": "GST invoice, invoice, tax invoice, bill, receipt, GST bill",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "How I know about my wallet status?",
+    "answer": "You can track your earnings through the wallet facility in the app and withdraw your payments during the bank working hours.",
+    "keywords": "wallet status, wallet balance, check wallet, wallet amount, wallet balance check",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Is there a joining bonus for new astrologers?",
+    "answer": "There is no such joining bonus for the astrologers. They can earn more but it purely based on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Based on this, the price slot will vary.",
+    "keywords": "joining bonus, welcome bonus, sign up bonus, new astrologer bonus, bonus",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Can I set my own consultation charges?",
+    "answer": "The astrologer can fix their own pricing. It depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. Example, starting with Rs.3 as minimum and maximum the astrologer can fix it. This is the best top rating which they will get it. We will not deduct anything form that. But 15% GST and 10% TDS will be deducted as per the govt norms.",
+    "keywords": "set price, fix price, own pricing, consultation charges, set charges, fix charges, pricing, how to set price",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Can I receive payments weekly instead of monthly?",
+    "answer": "Through the wallet system in the app, the astrologers can withdraw at anytime.",
+    "keywords": "weekly payment, monthly payment, payment frequency, when can I withdraw, withdrawal frequency",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Is payment through bank transfer or wallet?",
+    "answer": "The payment is through the wallet system which is available in the app. But Bank account is must for wallet activation. Astrologers should add their bank account and withdraw amount from the wallet.",
+    "keywords": "payment method, bank transfer, wallet, how payment works, payment system, bank account",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Are my earnings taxable, and will AstroTamil deduct TDS?",
+    "answer": "Yes. 18% GST and 10% TDS will be deducted as per the govt norms.",
+    "keywords": "tax, taxable, TDS, GST, tax deduction, income tax, will TDS be deducted, tax on earnings",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Can I receive international payments if customers are abroad?",
+    "answer": "You will get the payments in rupees.",
+    "keywords": "international payment, foreign payment, payment from abroad, overseas payment, international customers",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "What legal protection do I have if a customer harasses me?",
+    "answer": "Since Astrologers are not as full time employee for Astrotamil, we cannot provide legal protection. We are just a platform between the Astrologers and the users. But, all the support will be given as much as we can.",
+    "keywords": "legal protection, harassment, customer harassment, legal help, protection, support",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Do you provide bonuses during festival seasons (Pongal, Diwali, Aadi)?",
+    "answer": "There is no such festival bonus for the astrologers. Since Astrologers are not as full time employee for Astrotamil, we cannot provide bonus for astrologers. We are just a platform between the Astrologers and the users. They can earn more but it purely based on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Based on this, the price slot will vary.",
+    "keywords": "festival bonus, Pongal bonus, Diwali bonus, Aadi bonus, seasonal bonus, festival incentives",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Are astrologers eligible for incentives if they cross a certain number of consultations?",
+    "answer": "There are no such incentives for the astrologers. Since Astrologers are not as full time employee for Astrotamil, we cannot provide bonus for astrologers. We are just a platform between the Astrologers and the users. They can earn more but it purely based on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Based on this, the price slot will vary.",
+    "keywords": "incentives, consultation incentives, performance incentives, bonus for consultations, rewards",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Can I withdraw earnings before the monthly cycle in case of emergency?",
+    "answer": "Through the wallet system in the app, the astrologers can withdraw at anytime. You can track your earnings through the wallet facility and withdraw your payments during the bank working hours.",
+    "keywords": "withdraw, emergency withdrawal, early withdrawal, withdraw anytime, instant withdrawal",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Will you provide insurance, PF, or other benefits to long-term astrologers?",
+    "answer": "Since Astrologers are not as full time employee for Astrotamil, we cannot provide employee benefits for the astrologers. We are just a platform between the Astrologers and the users. They can earn more but it purely based on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Based on this, the price slot will vary.",
+    "keywords": "insurance, PF, provident fund, employee benefits, benefits, long term benefits",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Are there premium tiers of astrologers who earn more?",
+    "answer": "Based on performance criteria, the price slots will vary but not like as premium tier. They can earn more but it purely based on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. Example, starting with Rs.3 as minimum and maximum the astrologer can fix it. This is the best top rating which they will get it.",
+    "keywords": "premium tier, premium astrologer, higher earning, premium level, tier system",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "What happens if a customer pays but doesn't show up?",
+    "answer": "There is no chance of getting such situation. The user will send a request for consultation and the astrologer to accept it. If there is any technical issue, it will be solved immediately.",
+    "keywords": "customer no show, didn't show up, customer absent, no show, customer not coming",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Do I still earn if the consultation is disconnected after a few minutes?",
+    "answer": "The payment will be as per minute basis. So, you will get the payment till the disconnected time only.",
+    "keywords": "disconnected, early disconnect, payment if disconnect, still get paid, short consultation payment",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Can I charge premium rates for festival or peak days?",
+    "answer": "No. The best way to earn more at Astrotamil platform is to be available at maximum time and maintain the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. In this way if you got the best slot, then you can charge as much you can.",
+    "keywords": "premium rates, festival rates, peak day rates, special rates, higher charges",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "What if my bank account is inactive – can you pay to UPI/wallet?",
+    "answer": "Once your present bank account is inactive, kindly add another bank account for the smooth service of wallet system. Wallet withdrawal is possible through bank account only.",
+    "keywords": "inactive bank account, UPI payment, wallet payment, bank account issue, payment method",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Do you provide income statements for tax filing?",
+    "answer": "Yes, the TDS details will be provided for tax filing as per the norms.",
+    "keywords": "income statement, tax filing, TDS certificate, tax document, income certificate",
+    "category": "Earnings & Payments"
+  },
+  {
+    "question": "Am I allowed to work with other astrology platforms while on AstroTamil?",
+    "answer": "There is no restriction but as much you spend time in our app, the performance will increase and your pricing slot also will increase.",
+    "keywords": "other platforms, work with other apps, multiple platforms, can I work elsewhere, other astrology apps",
+    "category": "Policies & Compliance"
+  },
+  {
+    "question": "What happens if I miss a scheduled consultation?",
+    "answer": "If you miss a consultation, then the user only to try again. The astrologer always to accept the call in 30 seconds or the user may try with another astrologer. If you are online but still didn't accept the consultation then it may affect your performance rating.",
+    "keywords": "miss consultation, missed call, didn't attend, not answered, missed appointment, what if I miss",
+    "category": "Policies & Compliance"
+  },
+  {
+    "question": "How do you handle disputes with customers?",
+    "answer": "Financial technical issues will be taken care by us. Astrologers are not as full time employee for Astrotamil. We are just a platform between the Astrologers and the users.",
+    "keywords": "disputes, complaints, customer complaint, how disputes handled, conflict resolution",
+    "category": "Policies & Compliance"
+  },
+  {
+    "question": "What are the quality expectations for astrologers?",
+    "answer": "Service quality, good customer relationship, No superstitious or black magic concepts. Ethically whatever need for a customer.",
+    "keywords": "quality, expectations, standards, requirements, what is expected, quality standards, service quality",
+    "category": "Policies & Compliance"
+  },
+  {
+    "question": "Are my predictions monitored or rated?",
+    "answer": "Yes it will be monitored and the rating given by the user as per their satisfaction.",
+    "keywords": "monitored, predictions monitored, rating, predictions rated, quality check",
+    "category": "Policies & Compliance"
+  },
+  {
+    "question": "Am I allowed to recommend pooja/homam outside the app?",
+    "answer": "Yes. But, No superstitious or black magic concepts. If we found like any of these, legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numbers and social media details).",
+    "keywords": "pooja, homam, remedies, recommend, suggest pooja, suggest remedies, outside app",
+    "category": "Policies & Compliance"
+  },
+  {
+    "question": "What happens if I promote my personal services to customers?",
+    "answer": "If we found that the astrologer is promoting personal services to the customer, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "promote personal services, personal business, outside services, promote own business, personal promotion",
+    "category": "Policies & Compliance"
+  },
+  {
+    "question": "Do I get a formal contract or MoU with AstroTamil?",
+    "answer": "No. Since Astrologers are not as full time employee for Astrotamil, we cannot provide MoU with Astrotamil. We are just a platform between the Astrologers and the users.",
+    "keywords": "contract, MoU, agreement, formal contract, memorandum of understanding, legal agreement",
+    "category": "Policies & Compliance"
+  },
+  {
+    "question": "What if I face network or app issues during consultation?",
+    "answer": "There will be less chance to get issues. Even if get any issue, it will be rectified automatically.",
+    "keywords": "network issue, app issue, technical issue, problem, error, connection problem, app not working",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Who do I contact for technical assistance?",
+    "answer": "Kindly contact our admin if facing any technical issues.",
+    "keywords": "technical support, help, contact, admin, support, technical assistance, who to contact, help desk",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Can I use multiple devices to log in?",
+    "answer": "Yes, multiple devices can be used. But, technical issues may happen. So, we recommend to login in one device and logout the second device.",
+    "keywords": "multiple devices, login, multiple login, can I use different device, login from different phone",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Do you provide training in handling difficult customers?",
+    "answer": "We provide technological training. The astrologer to maintain Service quality, good customer relationship, No superstitious or black magic concepts. Ethically whatever need for a customer.",
+    "keywords": "training, customer handling, difficult customers, training program, customer service training",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Is there a demo session before going live?",
+    "answer": "Yes, We provide technological training before going live.",
+    "keywords": "demo session, training session, before going live, demo, practice session",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Can I get marketing support to promote my profile?",
+    "answer": "Since the personal details of the astrologers and the customers should not be shared, we are not in a position to promote the astrologers profile. But, if the astrologer maintain the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes then the price clot will automatically change.",
+    "keywords": "marketing support, promote profile, marketing help, profile promotion, advertising support",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Do you provide digital tools like Panchangam software?",
+    "answer": "We provide basic horoscope details in the chatroom and not providing any kind of other softwares.",
+    "keywords": "Panchangam software, digital tools, astrology software, tools, software provided",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Can I continue a consultation from mobile to laptop?",
+    "answer": "No. Only mobile application is available",
+    "keywords": "mobile to laptop, switch device, continue on laptop, transfer consultation, different device",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Will I still get paid if the issue was from the customer's side?",
+    "answer": "The payment is on per minute basis. So, the astrologer will get the payment till the discussions get disconnected. If you miss a consultation, then the user only to try again. The astrologer always to accept the call in 30 seconds or the user may try with another astrologer.",
+    "keywords": "customer side issue, technical issue customer, payment if customer problem, customer error payment",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "How do I reset my login if I forget the password?",
+    "answer": "If you forget the password, then to try with forget password and OTP will come to your mobile. Then you can reset the password.",
+    "keywords": "forgot password, reset password, password reset, forgot login, recover password, change password",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Do you record consultations for quality checks?",
+    "answer": "Yes, we do. No superstitious or black magic concepts explanation to our users. If we found like any of these, legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "record consultations, recording, quality check, consultation recording, monitoring",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Will I get feedback from customers shared with me?",
+    "answer": "User will be giving star rating/ review. Astrologer can see this in the app.",
+    "keywords": "feedback, customer feedback, reviews, ratings, see feedback, customer reviews",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Is there any penalty for giving remedies that are considered \"unscientific\"?",
+    "answer": "If we found that the astrologer is promoting unscientific services to the customer, he/she will be immediately terminated and legal action will be taken.",
+    "keywords": "penalty, unscientific remedies, unscientific, penalty for remedies, consequences",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Can I consult customers outside India (time zone differences)?",
+    "answer": "Yes. We have international customers also. But to make sure about the time zone differences and try to be available online as much as possible. The more you available in the online, the more customers you will get.",
+    "keywords": "international customers, time zone, overseas customers, customers abroad, different time zone",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "What if my internet drops during consultation?",
+    "answer": "When internet drops, the consultation will be disconnected. So, try to make sure about the internet availability during the consultation.",
+    "keywords": "internet drop, connection lost, network problem, internet issue, connection problem",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "What happens if I forget to log out and get calls after working hours?",
+    "answer": "When the astrologer in login mode, then will get the calls. If you miss a consultation, then the user only to try again. The astrologer always to accept the call in 30 seconds or the user may try with another astrologer and you will miss the customer. If the astrologer is not in a position to attend calls, its better to keep as logout.",
+    "keywords": "forgot logout, calls after hours, working hours, logout, log out",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Do you provide an emergency helpline for astrologers?",
+    "answer": "Yes we provide. But after all the selection process and when they are ready for onboard only.",
+    "keywords": "emergency helpline, helpline, emergency support, emergency contact, help line",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Can I access AstroTamil in multiple languages, or only Tamil?",
+    "answer": "It purely depends on users. If they request other languages and the astrologer also comfortable with that, then they can use multiple languages.",
+    "keywords": "multiple languages, language support, Tamil, other languages, multilingual",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Will there be an astrologer-only portal for resources and updates?",
+    "answer": "Yes, there will be a separate portal and login for astrologers. They can login with mobile OTP registration and see their ratings, wallet balance and all.",
+    "keywords": "astrologer portal, portal, resources, updates, astrologer dashboard",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Can I suggest new features for the app?",
+    "answer": "Yes, the astrologers are welcomed for their suggestions. They can reach admin for this.",
+    "keywords": "suggest features, feature request, new features, suggestions, feedback on features",
+    "category": "Platform doubts/ Technical Issues/ Support"
+  },
+  {
+    "question": "Will customers be able to see my personal number?",
+    "answer": "No. The astrologer cannot see the personal details of any users. If we found like any of these, immediate termination and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "personal number, phone number, contact details, privacy, personal information, customer see my number, contact info",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "If a customer is abusive, how should I handle it?",
+    "answer": "Immediately the astrologer can block the user and inform the admin team with details.",
+    "keywords": "abusive customer, harassment, rude customer, how to handle, block customer, report customer",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "Can I share remedies that involve external payments (like temple visits)?",
+    "answer": "Remedies can be given. Since the personal details should not be shared as per Astrotamil policy, the astrologer cannot make any kind of contacts including payments.",
+    "keywords": "remedies, external payments, temple visits, payment for remedies, remedies with payment",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "Am I allowed to suggest gemstone purchases, or is that restricted?",
+    "answer": "Suggestions can be given. Since the personal details should not be shared as per Astrotamil policy, the astrologer cannot make any kind of contacts including payments.",
+    "keywords": "gemstone, gemstone purchase, suggest gemstone, recommend gemstone, gemstone recommendation",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "Can I share my personal contact details with them?",
+    "answer": "It is not allowed. If we found that the astrologer is promoting personal services to the customer, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numbers and social media details).",
+    "keywords": "share contact, personal contact, share number, share email, personal details, contact information, can I share my number",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "How are customer ratings/reviews handled?",
+    "answer": "Customers can give ratings after the consultation is over. It will be used to calculate astrologers performance rating.",
+    "keywords": "ratings, reviews, customer feedback, rating system, how ratings work, reviews system",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "If a customer asks for a refund, will my payment be deducted?",
+    "answer": "Depends on the issue. Admin will go through the chat & decide on this issue.",
+    "keywords": "refund, customer refund, payment deduction, will I lose money, refund request",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "Who decides if a refund is valid?",
+    "answer": "The admin will decide regarding the refund. Once the request for fund is raised, the admin will go through the issue and depending on the raised complaint, the decision will be taken.",
+    "keywords": "refund valid, who decides refund, refund decision, refund approval",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "Can I provide proof of my consultation if challenged?",
+    "answer": "Yes you can.",
+    "keywords": "proof, consultation proof, evidence, proof of consultation, challenge proof",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "What if a customer repeatedly books me and wastes time without serious queries?",
+    "answer": "If the astrologer thinks that a customer is wasting his time repeatedly then he can block the customer and inform the admin immediately.",
+    "keywords": "wasting time, repeated booking, time waster, customer wasting time, block time waster",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "If a customer becomes emotionally dependent, how should I handle it?",
+    "answer": "Astrologers should handle the customers in a soft and ethical way. There should not be any kind of negative support from the astrologer end. This should be informed to admin.",
+    "keywords": "emotionally dependent, emotional dependency, how to handle, customer dependency",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "What if a customer asks me about lottery numbers or illegal predictions?",
+    "answer": "Astrologers should handle the customers in a soft and ethical way. There should not be any kind of negative support from the astrologer end.",
+    "keywords": "lottery numbers, illegal predictions, gambling, illegal questions, how to handle",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "Can I escalate customers who misuse language or harass me?",
+    "answer": "If the astrologer thinks that a customer is harassing, then he can block the customer and inform the admin immediately.",
+    "keywords": "escalate, harassment, misuse language, report customer, escalate complaint",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "Can I schedule consultations in advance for repeat customers?",
+    "answer": "No. then the user only to try again. The astrologer always to accept the call in 30 seconds or the user may try with another astrologer.",
+    "keywords": "schedule in advance, advance booking, pre-schedule, appointment scheduling",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "What happens if a customer insists on a refund directly from me?",
+    "answer": "If the astrologer thinks that a customer is harassing, then he can block the customer and inform the admin immediately.",
+    "keywords": "refund directly, customer insists refund, direct refund request",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "Can I limit the number of customers I see per day?",
+    "answer": "If you want to limit your number of customers, then you have to opt Offline option in the app and go as offline. Whenever you are free to attend the calls by that time you can login and make it as online available.",
+    "keywords": "limit customers, daily limit, restrict customers, maximum customers per day",
+    "category": "Customer Interaction"
+  },
+  {
+    "question": "Will AstroTamil promote my profile?",
+    "answer": "No, we are not encouraging it. If we found that the astrologer is promoting personal services to the customer, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "promote profile, profile promotion, marketing, advertising, promote astrologer",
+    "category": "Promotions & Growth"
+  },
+  {
+    "question": "Are there badges, achievements, or ranking systems?",
+    "answer": "Top rating depends on various factors such as time and user. But astrologer can fix their own pricing. It depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. Example, starting with Rs.3 as minimum and maximum the astrologer can fix it. This is the best top rating which they will get it. We will not deduct anything form that. But 18% GST and 10% TDS will be deducted as per the govt norms.",
+    "keywords": "badges, achievements, ranking system, rewards, recognition, ranking",
+    "category": "Promotions & Growth"
+  },
+  {
+    "question": "How can I increase my visibility on the app?",
+    "answer": "Your visibility in the app depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. The more you available, the more you will get customers.",
+    "keywords": "visibility, ranking, search ranking, profile visibility, how to get more customers, increase visibility, improve ranking",
+    "category": "Promotions & Growth"
+  },
+  {
+    "question": "How is customer data protected?",
+    "answer": "As per policy, the personal data of the users will not be shared anywhere.",
+    "keywords": "data protection, privacy, customer data, data security, privacy policy",
+    "category": "Confidentiality & Security"
+  },
+  {
+    "question": "Am I allowed to keep records of customer horoscopes?",
+    "answer": "No. The astrologers are not allowed to keep the personal records of the users.",
+    "keywords": "keep records, horoscope records, customer records, save horoscope, store data",
+    "category": "Confidentiality & Security"
+  },
+  {
+    "question": "What steps should I take if a customer behaves inappropriately?",
+    "answer": "If the astrologer thinks that a customer behaves inappropriately, then he can block the customer and inform the admin immediately.",
+    "keywords": "inappropriate behavior, customer misbehavior, how to handle, report inappropriate",
+    "category": "Confidentiality & Security"
+  },
+  {
+    "question": "Do you provide astrologers with leads for matchmaking (AstroKalyanam)?",
+    "answer": "No. But, the astrologers can select the specialization filter option on match making so that they will get more match making users.",
+    "keywords": "matchmaking leads, AstroKalyanam, matchmaking, leads, matchmaking customers",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Can I specialize only in certain services (e.g., marriage matching, career guidance)?",
+    "answer": "Yes. the astrologers can select the specialization filter option on match making so that they will get more match making users.",
+    "keywords": "specialization, specialize, specific services, marriage matching, career guidance, specialization filter",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "How do I resign/deactivate my account if needed?",
+    "answer": "Astrologers are not as full time employee for Astrotamil, We are just a platform between the Astrologers and the users. So, if astrologers would like to deactivate their account they can send a request to our admin. The admin team will do the needful.",
+    "keywords": "resign, deactivate account, close account, leave, quit, account deactivation",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Can I create my own custom consultation packages?",
+    "answer": "The astrologer can fix their own pricing. It depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. Example, starting with Rs.3 as minimum and maximum the astrologer can fix it. This is the best top rating which they will get it. We will not deduct anything form that. But 15% GST and 10% TDS will be deducted as per the govt norms.",
+    "keywords": "custom packages, consultation packages, create packages, package pricing",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Can I do \"live events\" through the app for multiple users at once?",
+    "answer": "No, it is currently not available.",
+    "keywords": "live events, multiple users, group consultation, live session, events",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Can I work exclusively for AstroTamil and get extra benefits?",
+    "answer": "Yes. It depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. The more you available in online, the chances of getting more customers. Through this you can make extra income.",
+    "keywords": "exclusive, work exclusively, exclusive benefits, only AstroTamil, exclusive astrologer",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Is there a penalty if I log in late or miss peak hours?",
+    "answer": "It is better to be in online atleast by 4 hours. Because you may miss the chance to miss customers and thereby reducing your income.",
+    "keywords": "penalty, late login, miss peak hours, penalty for late, peak hours",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Do you provide minimum guaranteed income if consultations are low?",
+    "answer": "No. The more you available in online, the chances of getting more customers. Through this you can make good income.",
+    "keywords": "guaranteed income, minimum income, fixed income, guaranteed payment",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Can I temporarily pause my account (vacation mode)?",
+    "answer": "Offline messaging system can be booked in the app. It will show the next availability time. If you are showing as online but not attending the calls then it will reduce the astrologers' overall performance rating. So, price slot will be changed. Instead if you opt offline, then there will not be any negatives.",
+    "keywords": "pause account, vacation mode, temporary deactivate, offline mode, take break, pause service",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Will there be AI-powered astrology features, and how will that affect my role?",
+    "answer": "No. AI tools will be there to assist the astrologers only. People will prefer to have consultation with the real astrologers only.",
+    "keywords": "AI features, AI tools, artificial intelligence, AI astrology, how AI affects",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Can I participate in app development feedback as a senior astrologer?",
+    "answer": "Anyone can share their feedbacks. Send the feedbacks to the admin team. As per the demand/situation it will be taken.",
+    "keywords": "feedback, app development, suggestions, participate, senior astrologer feedback",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Will you allow astrologers to publish their own \"Panchangam\" or predictions in the app?",
+    "answer": "No personal contacts or details to be shared in the app. If we found that the astrologer is promoting personal services to the customer, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "publish Panchangam, publish predictions, own content, publish content",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "If I work on another app, will you terminate my AstroTamil account?",
+    "answer": "No. To increase the numbers of conusltations, you have to be more hours available in online in our app. So, you will get more customers. Giving good customer care also will increase the chances of getting more consultations.",
+    "keywords": "work on other app, other platform, multiple apps, will account be terminated",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Are there incentives for exclusive astrologers?",
+    "answer": "There is no such exclusive incentives for astrologers. But the best way to earn more at Astrotamil platform is to be available at maximum time and maintain the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes.",
+    "keywords": "exclusive incentives, incentives, rewards for exclusive, exclusive benefits",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "How do you ensure fair distribution of consultations among all astrologers?",
+    "answer": "Our algorithm will shuffle the astrologer list every second. If your performace rating is good, then the chances for you to get listed in the starting list of astrologers are high. So in this way you can get more customers.",
+    "keywords": "fair distribution, consultation distribution, equal distribution, fair share",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Do senior astrologers get priority customers?",
+    "answer": "There is no such priority but the best way to earn more at Astrotamil platform is to be available at maximum time and maintain the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes.",
+    "keywords": "senior astrologers, priority customers, priority, senior priority",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Will you ever share my consultation data with third parties?",
+    "answer": "No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details). If we found, he/she will be immediately terminated and legal action will be taken.",
+    "keywords": "share data, third parties, data sharing, privacy, consultation data sharing",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Will you promote me on AstroTamil's social media pages?",
+    "answer": "No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details). If we found, he/she will be immediately terminated and legal action will be taken.",
+    "keywords": "social media promotion, promote on social media, social media, marketing",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Are astrologers ranked by customer reviews or consultation volume?",
+    "answer": "It depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. Example, starting with Rs.3 as minimum and maximum the astrologer can fix it. This is the best top rating which they will get it. No such rankings are publicly displayed.",
+    "keywords": "ranking, ranked by reviews, consultation volume, ranking system, how ranked",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "How do I improve my search ranking within the app?",
+    "answer": "Ranking is purely depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. Example, starting with Rs.3 as minimum and maximum the astrologer can fix it. This is the best top rating which they will get it.",
+    "keywords": "search ranking, improve ranking, better ranking, top ranking, how to rank higher, improve position",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Will AstroTamil expand to Vastu, Numerology, or Tarot services where I can also work?",
+    "answer": "Options are already there. You can edit your expertise & start getting customers.",
+    "keywords": "Vastu, Numerology, Tarot, other services, expand services, additional services",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "Why are some astrologers getting highlighted more often?",
+    "answer": "Highlighting the astrologers is depending on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. The more you available in online, the chances of getting more customers. Through this you can make extra income.",
+    "keywords": "highlighted, featured, why highlighted, why featured, more visibility",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "If I lose a consultation to another astrologer, will I be compensated?",
+    "answer": "No. If you miss a consultation, then the user only to try again. The astrologer always to accept the call in 30 seconds or the user may try with another astrologer.",
+    "keywords": "lose consultation, compensation, missed consultation, consultation lost",
+    "category": "Miscellaneous"
+  },
+  {
+    "question": "How does the rating system work?",
+    "answer": "Rating system is depending on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. The more you available in online, the chances of getting more customers. Through this you can make extra income.",
+    "keywords": "rating system, how ratings work, performance rating, rating calculation, how rating calculated",
+    "category": "Ratings, Reviews & Quality"
+  },
+  {
+    "question": "If a customer gives me a false negative review, can I contest it?",
+    "answer": "Once you get such reviews, please do inform to our admin immediately.",
+    "keywords": "false review, negative review, contest review, dispute review, wrong review, unfair review",
+    "category": "Ratings, Reviews & Quality"
+  },
+  {
+    "question": "Do you suspend astrologers with low ratings?",
+    "answer": "Final decision will be taken based on many factors. Rating system is depending on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. User feedback also important in this.",
+    "keywords": "suspend, low ratings, termination, account suspension, low performance, what if low rating",
+    "category": "Ratings, Reviews & Quality"
+  },
+  {
+    "question": "How can I improve my profile visibility?",
+    "answer": "The best way to improve the profile visibility is to be available in the app as more time. The more you available in online, the chances of getting more customers. The other performance criterias are availability time, customer rating, customer retention, response rate and golden minutes.",
+    "keywords": "profile visibility, improve visibility, increase visibility, better visibility",
+    "category": "Ratings, Reviews & Quality"
+  },
+  {
+    "question": "Can I log in only on weekends?",
+    "answer": "Yes. The more you available in online, the chances of getting more customers.",
+    "keywords": "weekends only, weekend login, part time, flexible hours",
+    "category": "Work Flexibility"
+  },
+  {
+    "question": "Is there a minimum number of hours I must be available?",
+    "answer": "It is better to be in online atleast by 4 hours. Because you may miss the chance to miss customers and thereby reducing your income. The more you available in online, the chances of getting more customers",
+    "keywords": "minimum hours, required hours, how many hours, minimum availability, must be online, required time",
+    "category": "Work Flexibility"
+  },
+  {
+    "question": "What happens if I take a break for 1–2 months?",
+    "answer": "If the astrologer account is logout continuously for 3 months, then the account will be disabled from the app.",
+    "keywords": "break, vacation, leave, long break, inactive, deactivate, account disabled, what if I take break, 1-2 months break, two months break",
+    "category": "Work Flexibility"
+  },
+  {
+    "question": "Do astrologers get paid separately for matchmaking services?",
+    "answer": "The charges are on per minute basis. As per the connected time, it will be paid.",
+    "keywords": "matchmaking, AstroKalyanam, matchmaking payment, kundali matching payment, porutham payment, separate payment, matchmaking earnings",
+    "category": "AstroKalyanam (Matchmaking)"
+  },
+  {
+    "question": "Do I need special approval to provide matchmaking services?",
+    "answer": "The astrologers can select the specialization filter option on match making so that they will get more match making users.",
+    "keywords": "matchmaking approval, special approval, matchmaking services, can I do matchmaking, matchmaking permission, approval for matchmaking",
+    "category": "AstroKalyanam (Matchmaking)"
+  },
+  {
+    "question": "Can I suggest remedies for couples who don't match astrologically?",
+    "answer": "Astrologers should handle the customers in a soft and ethical way. There should not be any kind of negative support from the astrologer end. No personal details sharing.",
+    "keywords": "remedies, couples don't match, no match, porutham, kundali matching, suggest remedies, remedies for mismatch, couples remedies",
+    "category": "AstroKalyanam (Matchmaking)"
+  },
+  {
+    "question": "Is there an extra incentive for AstroKalyanam consultations?",
+    "answer": "There is no such incentives for the astrologers. Since Astrologers are not as full time employee for Astrotamil, we cannot provide bonus for astrologers. We are just a platform between the Astrologers and the users. They can earn more but it purely based on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Based on this, the price slot will vary.",
+    "keywords": "extra incentive, bonus, matchmaking incentive, AstroKalyanam bonus, special incentive, matchmaking bonus, extra payment",
+    "category": "AstroKalyanam (Matchmaking)"
+  },
+  {
+    "question": "Will I be given special recognition for successful marriage matches?",
+    "answer": "There is no such incentives for the astrologers. You can earn more but it purely based on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Based on this, the price slot will vary",
+    "keywords": "special recognition, marriage matches, successful matches, recognition, matchmaking recognition, special award, recognition for matches",
+    "category": "AstroKalyanam (Matchmaking)"
+  },
+  {
+    "question": "How are disputes handled if customers disagree with my porutham result?",
+    "answer": "If there is any issue, the Astrologers should handle the customers in a soft and ethical way. There should not be any kind of negative support from the astrologer end.",
+    "keywords": "disputes, porutham result, customer disagree, disagreement, dispute handling, porutham dispute, matchmaking dispute",
+    "category": "AstroKalyanam (Matchmaking)"
+  },
+  {
+    "question": "Can I suggest muhurthams for weddings directly inside the app?",
+    "answer": "Yes you can. But no personal details sharing",
+    "keywords": "muhurtham, muhurthams, wedding date, auspicious time, wedding muhurtham, suggest muhurtham, wedding timing",
+    "category": "AstroKalyanam (Matchmaking)"
+  },
+  {
+    "question": "Will customers know my name in matchmaking services?",
+    "answer": "No, you will have another professional name in the app",
+    "keywords": "name, professional name, alias, customer see name, matchmaking name, identity, anonymous",
+    "category": "AstroKalyanam (Matchmaking)"
+  },
+  {
+    "question": "If I resign, will I still get pending payments?",
+    "answer": "Yes, as per the company policy you will get it.",
+    "keywords": "resign, leave, quit, pending payments, final payment, settlement, exit payment, resignation payment",
+    "category": "Exit / Deactivation"
+  },
+  {
+    "question": "Can I rejoin later after deactivation?",
+    "answer": "To deactive and rejoin, proper information to be gives to the admin.",
+    "keywords": "rejoin, reactivate, come back, return, after deactivation, can I rejoin, reactivate account",
+    "category": "Exit / Deactivation"
+  },
+  {
+    "question": "Will my profile history (ratings, reviews) remain if I come back?",
+    "answer": "If it is after 3 months, you will not get your old rating and reviews.",
+    "keywords": "profile history, ratings, reviews, old ratings, history remain, keep reviews, rating history",
+    "category": "Exit / Deactivation"
+  },
+  {
+    "question": "What happens if I get banned – is there an appeal process?",
+    "answer": "Contact admin for further proceedings.",
+    "keywords": "banned, ban, appeal, appeal process, account banned, banned account, how to appeal, unban",
+    "category": "Exit / Deactivation"
+  },
+  {
+    "question": "Do you blacklist astrologers who break exclusivity rules?",
+    "answer": "Yes, If we found that any of the astrologer is breaking the exclusivity rules, he/she will be immediately terminated and legal action will be taken if needed. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "blacklist, exclusivity rules, break rules, rule violation, blacklisted, terminated, exclusivity violation",
+    "category": "Exit / Deactivation"
+  },
+  {
+    "question": "Do astrologers get access to customer contact details?",
+    "answer": "No. If we found that any of the astrologer is breaking the exclusivity rules, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "customer contact, customer details, personal information, privacy, access to customer info, customer data, contact details",
+    "category": "Confidentiality"
+  },
+  {
+    "question": "Is customer birth data stored permanently?",
+    "answer": "When you are speaking to a particular customer, his/hers chat history will be available there in the chat box.",
+    "keywords": "birth data, customer data, stored, permanent, data storage, birth details, kundali data, data retention",
+    "category": "Confidentiality"
+  },
+  {
+    "question": "Can I download and save the horoscopes for my reference?",
+    "answer": "No. It is against the company rules. If we found that any of the astrologer is breaking the exclusivity rules, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "download horoscope, save horoscope, keep records, download kundali, save kundali, store horoscope, download chart",
+    "category": "Confidentiality"
+  },
+  {
+    "question": "How is data protected under law (IT Act, privacy policy)?",
+    "answer": "Yes, the privacy policy is mentioned in the app",
+    "keywords": "data protection, IT Act, privacy policy, data security, legal protection, privacy law, data privacy, GDPR",
+    "category": "Confidentiality"
+  },
+  {
+    "question": "Am I liable if a customer's data leaks from my device?",
+    "answer": "Yes, It is against the company rules. If we found that any of the astrologer is breaking the exclusivity rules, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "liable, data leak, data breach, customer data leak, liability, responsible, data security breach",
+    "category": "Confidentiality"
+  },
+  {
+    "question": "Can top astrologers get featured on the home screen?",
+    "answer": "As per the performance criteria, it will happen. It depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes.",
+    "keywords": "featured, home screen, top astrologers, featured astrologer, homepage, featured on app, top listing",
+    "category": "Performance & Recognition"
+  },
+  {
+    "question": "Will my profile appear first if I have more consultations?",
+    "answer": "Yes. It depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes.",
+    "keywords": "profile appear first, top listing, first position, ranking, appear first, top astrologer, more consultations",
+    "category": "Performance & Recognition"
+  },
+  {
+    "question": "How do I improve my ranking among other astrologers?",
+    "answer": "By increasing the online availability, maintaining good customer service",
+    "keywords": "improve ranking, better ranking, top ranking, how to rank higher, improve position, ranking system, better position",
+    "category": "Performance & Recognition"
+  },
+  {
+    "question": "I have been waiting online for 3 hours, why no consultation?",
+    "answer": "It depends on your online availability. The more you available in online, the chances of getting more customers. Through this you can make extra income. The achievement depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes.",
+    "keywords": "no consultation, no calls, waiting, why no customers, not getting calls, no bookings, why no requests, waiting online, no calls for hours",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "My payment hasn't come yet – can you escalate immediately?",
+    "answer": "Yes. Please do inform the admin team immediately.",
+    "keywords": "payment not received, payment delay, payment issue, payment problem, escalate payment, payment not credited, payment pending",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "A customer threatened to give 1-star – what should I do?",
+    "answer": "Try to maintain a good and smooth user relationship. Improve the way of approach to them. Explain them in a polite way.",
+    "keywords": "threatened, 1 star, bad rating, negative review threat, customer threat, low rating threat, how to handle threat",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Why did I get fewer consultations than last week?",
+    "answer": "Improve your online availability. The more you available in online, the chances of getting more customers.",
+    "keywords": "fewer consultations, less calls, why less customers, reduced consultations, why fewer bookings, less business",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Why is another astrologer charging more than me?",
+    "answer": "The price slot depends on the performance criteria such as availability time, customer rating, customer retention, response rate and golden minutes. Minimum and maximum they can fix in that. Example, starting with Rs.3 as minimum and maximum the astrologer can fix it. This is the best top rating which they will get it.",
+    "keywords": "why other astrologer charges more, different pricing, price difference, why higher price, pricing variation, other astrologer price",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Why is another astrologer getting more consultations than me?",
+    "answer": "Improve your online availability. The more you available in online, the chances of getting more customers.",
+    "keywords": "other astrologer getting more, more consultations, why more customers, less customers, competition, other astrologer success",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Do you favor senior astrologers over new ones?",
+    "answer": "There is no such policy. Increase your online availability. The more you available in online, the chances of getting more customers.",
+    "keywords": "favor senior, favor new, senior astrologers, new astrologers, favoritism, bias, equal treatment",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Why don't customers return to me even if I give accurate predictions?",
+    "answer": "The more you available in online, the chances of getting more customers. So try to be in online more time.",
+    "keywords": "customers don't return, repeat customers, no repeat business, customers not coming back, why no repeat, customer retention",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Can I speak directly with the management instead of you?",
+    "answer": "You can convey the message to the admin and the admin team will pass the message to the management",
+    "keywords": "speak with management, contact management, direct contact, management contact, escalate to management, talk to management",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "A customer is threatening to report me on social media – what should I do?",
+    "answer": "Inform admin with details.",
+    "keywords": "threatening, social media, report, complaint on social media, social media threat, report threat, customer threat",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Another astrologer copied my remedies and told them as their own.",
+    "answer": "Since personal data are not there, chance of copying the details are not there.",
+    "keywords": "copied remedies, plagiarism, copied my work, stolen remedies, remedy copying, intellectual property",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "A customer asked for illegal predictions like gambling, what should I answer?",
+    "answer": "Try to maintain a good and smooth user relationship. Improve the way of approach to them. Explain them in a polite way. Giving suggestions for such things will lead to legal actions.",
+    "keywords": "illegal predictions, gambling, lottery, illegal questions, gambling predictions, lottery numbers, illegal requests",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Why hasn't management responded to my emails?",
+    "answer": "Will definitely check and reply the email at the earliest.",
+    "keywords": "management not responding, email not replied, no response, management response, email response, contact management",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Can I refuse consultations about divorce or death?",
+    "answer": "Avoid saying negatives. Try to maintain a good and smooth user relationship. Improve the way of approach to them. Explain them in a polite way.",
+    "keywords": "refuse consultation, divorce, death, sensitive topics, uncomfortable topics, can I refuse, decline consultation",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Am I allowed to provide remedies involving expensive purchases (like gold, gemstones)?",
+    "answer": "Yes. But, No superstitious or black magic concepts. If we found like any of these, legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "expensive purchases, gold, gemstones, remedies, expensive remedies, gemstone remedies, gold remedies, costly remedies",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "How does AstroTamil ensure ethical astrology practices?",
+    "answer": "If we found that the astrologer is promoting personal services to the customer, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "ethical practices, ethics, ethical astrology, ensure ethics, ethical standards, practice ethics, ethical guidelines",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Do you provide certification or recognition to astrologers?",
+    "answer": "No, we don't have any such recognition as of now.",
+    "keywords": "certification, recognition, certificate, award, certification program, recognition program, certified astrologer",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Can I represent AstroTamil in media interviews or temple events?",
+    "answer": "Since personal data sharing is not allowed you cannot represent. If we found that the astrologer is promoting personal services to the customer, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "represent, media interviews, temple events, public events, represent company, media representation, public appearance",
+    "category": "CCE Escalation-Handling Situations"
+  },
+  {
+    "question": "Can I use AstroTamil branding in my social media profiles?",
+    "answer": "Since personal data sharing is not allowed you cannot represent. If we found that the astrologer is promoting personal services to the customer, he/she will be immediately terminated and legal action will be taken. No personal details of Astrologer should be shared/revealed and should not get the customer details also (including both side name, address, email id, phone numers and social media details).",
+    "keywords": "branding, social media, use branding, company logo, AstroTamil logo, social media branding, brand usage",
+    "category": "Recognition & Branding"
+  },
+  {
+    "question": "Will you feature astrologers in promotional campaigns (ads, videos, etc.)?",
+    "answer": "No, as per our policy we are not encouraging the personal data sharing in the public.",
+    "keywords": "feature astrologers, promotional campaigns, ads, videos, marketing, promotional videos, advertising, feature in ads",
+    "category": "Recognition & Branding"
+  },
+  {
+    "question": "Can I publish a book or video course under the AstroTamil name?",
+    "answer": "No, as per our policy we are not encouraging the personal data sharing in the public.",
+    "keywords": "publish book, video course, AstroTamil name, book publication, course creation, publish under name",
+    "category": "Recognition & Branding"
+  },
+  {
+    "question": "Do astrologers get certificates of recognition from AstroTamil?",
+    "answer": "No, as per our policy we are not encouraging the personal data sharing in the public.",
+    "keywords": "certificates, recognition certificate, certificate of recognition, award certificate, recognition award",
+    "category": "Recognition & Branding"
+  },
+  {
+    "question": "Is there an official \"AstroTamil Certified Astrologer\" badge?",
+    "answer": "No, as per our policy we are not encouraging the personal data sharing in the public.",
+    "keywords": "certified astrologer, badge, official badge, certified badge, AstroTamil certified, certification badge",
+    "category": "Recognition & Branding"
+  },
+  {
+    "question": "Can I refuse consultations on topics I'm uncomfortable with (e.g., pregnancy, health)?",
+    "answer": "Avoid saying negatives. Try to maintain a good and smooth user relationship. Improve the way of approach to them. Explain them in a polite way.",
+    "keywords": "refuse consultation, uncomfortable topics, pregnancy, health, sensitive topics, can I refuse, decline consultation",
+    "category": "Sensitive/Ethical Concerns"
+  },
+  {
+    "question": "What if a customer cries during a consultation – should I console or stop?",
+    "answer": "Give proper comfort to them. Avoid saying negatives. Try to maintain a good and smooth user relationship. Improve the way of approach to them. Explain them in a polite way.",
+    "keywords": "customer cries, emotional customer, crying, console, comfort, emotional support, how to handle crying",
+    "category": "Sensitive/Ethical Concerns"
+  },
+  {
+    "question": "Can I recommend spiritual remedies involving money (temple donations, poojas)?",
+    "answer": "Remedies can be given. Since the personal details should not be shared as per Astrotamil policy, the astrologer cannot make any kind of contacts including payments.",
+    "keywords": "remedies, money, temple donations, pooja, spiritual remedies, recommend remedies, suggest remedies, donation remedies",
+    "category": "Sensitive/Ethical Concerns"
+  },
+  {
+    "question": "What if a prediction goes wrong and the customer blames me?",
+    "answer": "Avoid saying negatives. Try to maintain a good and smooth user relationship. Improve the way of approach to them. Explain them in a polite way.",
+    "keywords": "prediction wrong, wrong prediction, customer blames, prediction error, mistake, wrong forecast, customer complaint",
+    "category": "Sensitive/Ethical Concerns"
+  },
+  {
+    "question": "Can astrologers partner with AstroTamil for events or workshops?",
+    "answer": "Yes, You will get intimation when we organise",
+    "keywords": "events, workshops, partnership, collaborate, events participation, workshops participation, partner for events",
+    "category": "Collaboration & Growth"
+  },
+  {
+    "question": "Will there be offline AstroTamil centers where astrologers can work?",
+    "answer": "No, we don't have offline facility",
+    "keywords": "offline centers, offline facility, physical center, office, offline work, physical location, offline consultation",
+    "category": "Collaboration & Growth"
+  },
+  {
+    "question": "Can I refer other astrologers to join the platform?",
+    "answer": "Yes, you can refer. As per the slot we will consider them",
+    "keywords": "refer, referral, refer astrologer, bring astrologer, recommend astrologer, refer friend, referral program",
+    "category": "Collaboration & Growth"
+  },
+  {
+    "question": "Can astrologers earn by writing daily RasiPalan content for the app?",
+    "answer": "Astrologers can earn multiple ways from Astrotamil. Whenever situation arises you will get notified. If interested, you can collaborate.",
+    "keywords": "RasiPalan, daily predictions, writing content, content writing, earn by writing, RasiPalan content, daily horoscope writing",
+    "category": "Collaboration & Growth"
+  },
+  {
+    "question": "What should I do if a customer asks about predicting death?",
+    "answer": "Astrologers should handle the customers in a soft and ethical way. There should not be any kind of negative support from the astrologer end.",
+    "keywords": "predict death, death prediction, sensitive topics, uncomfortable questions, how to handle death question, death query",
+    "category": "Ethics & Sensitive Scenarios"
+  },
+  {
+    "question": "What if a customer becomes aggressive when my prediction doesn't match their expectations?",
+    "answer": "Avoid saying negatives. Try to maintain a good and smooth user relationship. Improve the way of approach to them. Explain them in a polite way. If its exceeds the limit, inform the admin.",
+    "keywords": "aggressive customer, angry customer, prediction doesn't match, customer unhappy, how to handle aggressive, customer angry",
+    "category": "Ethics & Sensitive Scenarios"
+  }
+]

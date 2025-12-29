@@ -1,8 +1,9 @@
-Django>=4.0
-djangorestframework
-django-cors-headers
-psycopg2-binary
-python-dotenv
-nltk
-fuzzywuzzy
-python-Levenshtein
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+django-cors-headers>=4.0.0
+psycopg2-binary>=2.9.5
+python-dotenv>=1.0.0
+nltk>=3.8.1
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0
+gunicorn>=21.2.0

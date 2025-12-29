@@ -1,12 +1,12 @@
 import uuid
 from django.db import models
-from django.contrib.postgres.fields import ArrayField
+from django.db import models
 
 class FAQ(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     question = models.TextField()
     answer = models.TextField()
-    keywords = ArrayField(models.CharField(max_length=100), default=list)
+    keywords = models.JSONField(default=list)
     category = models.CharField(max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

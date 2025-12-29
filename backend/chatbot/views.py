@@ -22,6 +22,10 @@ class ChatAPIView(APIView):
         user_message = request.data.get('message', '').strip()
         language = request.data.get('language', 'en')
         
+        # Generate session_id if None or empty
+        if not session_id:
+            session_id = f"auto_{timezone.now().timestamp()}_{id(request)}"
+        
         if not user_message:
             return Response({
                 'error': 'Message cannot be empty'
@@ -48,17 +52,17 @@ class ChatAPIView(APIView):
         )
         
         # Check if this is a response to human handoff prompt
-        last_messages = Message.objects.filter(
-            conversation=conversation
-        ).order_by('-timestamp')[:5]
-        
-        # Check if last AI message was asking for human agent
+        # Load last few messages and check if last AI message asked for human agent
+        recent_qs = Message.objects.filter(conversation=conversation).order_by('-timestamp')[:5]
+        last_messages = list(recent_qs)
+
         needs_human_response = False
         if len(last_messages) > 1:
-            last_ai_msg = last_messages.filter(is_user=False).first()
+            # find the most recent AI message within the recent slice
+            last_ai_msg = next((m for m in last_messages if not m.is_user), None)
             if last_ai_msg and 'human agent' in last_ai_msg.content.lower():
                 # User is responding to human agent prompt
-                if 'yes' in user_message.lower() or 'ok' in user_message.lower() or 'sure' in user_message.lower():
+                if any(k in user_message.lower() for k in ('yes', 'ok', 'sure')):
                     needs_human_response = True
         
         if needs_human_response:

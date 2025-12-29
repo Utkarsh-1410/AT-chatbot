@@ -10,14 +10,18 @@ from .models import Conversation, Message, HumanHandoffRequest
 class ConversationAdmin(admin.ModelAdmin):
     """Admin interface for Conversation model."""
     
-    list_display = ('session_id', 'language', 'created_at', 'last_active', 'message_count')
+    list_display = ('session_id_short', 'language', 'message_count', 'created_at', 'last_active', 'duration')
     list_filter = ('language', 'created_at', 'last_active')
     search_fields = ('session_id',)
-    readonly_fields = ('id', 'created_at', 'last_active')
+    readonly_fields = ('id', 'session_id', 'created_at', 'last_active', 'message_count', 'duration')
+    date_hierarchy = 'created_at'
     
     fieldsets = (
         ('Session Info', {
             'fields': ('id', 'session_id', 'language')
+        }),
+        ('Statistics', {
+            'fields': ('message_count', 'duration')
         }),
         ('Timestamps', {
             'fields': ('created_at', 'last_active'),
@@ -25,18 +29,39 @@ class ConversationAdmin(admin.ModelAdmin):
         }),
     )
     
+    def session_id_short(self, obj):
+        """Display shortened session ID."""
+        return f"...{obj.session_id[-12:]}"
+    session_id_short.short_description = 'Session ID'
+    
     def message_count(self, obj):
         """Display the number of messages in conversation."""
         return obj.messages.count()
     message_count.short_description = 'Messages'
+    
+    def duration(self, obj):
+        """Display conversation duration."""
+        if obj.created_at and obj.last_active:
+            delta = obj.last_active - obj.created_at
+            hours = delta.total_seconds() / 3600
+            if hours < 1:
+                minutes = delta.total_seconds() / 60
+                return f"{int(minutes)} minutes"
+            elif hours < 24:
+                return f"{hours:.1f} hours"
+            else:
+                days = hours / 24
+                return f"{days:.1f} days"
+        return "N/A"
+    duration.short_description = 'Duration'
     
     def has_add_permission(self, request):
         """Prevent manual creation of conversations via admin."""
         return False
     
     def has_delete_permission(self, request, obj=None):
-        """Prevent deletion of conversations via admin."""
-        return False
+        """Allow deletion only for superusers to preserve data."""
+        return request.user.is_superuser
 
 
 @admin.register(Message)
@@ -46,7 +71,8 @@ class MessageAdmin(admin.ModelAdmin):
     list_display = ('id_short', 'conversation_session', 'sender_type', 'content_preview', 'timestamp')
     list_filter = ('is_user', 'timestamp', 'conversation__language')
     search_fields = ('content', 'conversation__session_id')
-    readonly_fields = ('id', 'conversation', 'timestamp')
+    readonly_fields = ('id', 'conversation', 'content', 'is_user', 'timestamp')
+    date_hierarchy = 'timestamp'
     
     fieldsets = (
         ('Message Info', {
@@ -65,12 +91,12 @@ class MessageAdmin(admin.ModelAdmin):
     
     def conversation_session(self, obj):
         """Display conversation session ID."""
-        return obj.conversation.session_id
+        return f"...{obj.conversation.session_id[-12:]}"
     conversation_session.short_description = 'Session'
     
     def sender_type(self, obj):
         """Display message sender type."""
-        return 'User' if obj.is_user else 'AI'
+        return '👤 User' if obj.is_user else '🤖 AI'
     sender_type.short_description = 'Sender'
     
     def content_preview(self, obj):
@@ -85,9 +111,13 @@ class MessageAdmin(admin.ModelAdmin):
         """Prevent manual creation of messages via admin."""
         return False
     
-    def has_delete_permission(self, request, obj=None):
-        """Prevent deletion of messages via admin."""
+    def has_change_permission(self, request, obj=None):
+        """Prevent editing of messages to preserve data integrity."""
         return False
+    
+    def has_delete_permission(self, request, obj=None):
+        """Allow deletion only for superusers to preserve data."""
+        return request.user.is_superuser
 
 
 @admin.register(HumanHandoffRequest)
