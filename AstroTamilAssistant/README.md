@@ -2,17 +2,17 @@
 
 An intelligent AI-powered customer support mobile application for AstroTamil, built with [React Native](https://reactnative.dev). The app provides instant answers to customer queries using a comprehensive FAQ database, with seamless escalation to human agents when needed.
 
-## 🌟 Features
+##  Features
 
-- ✅ **AI-Powered FAQ Matching** - Instant responses using fuzzy matching algorithm
-- ✅ **Bilingual Support** - Tamil & English language interface
-- ✅ **Conversation History** - Persistent chat sessions stored permanently
-- ✅ **Human Handoff** - Smooth escalation to human agents with contact form
-- ✅ **Session Management** - Create new chats while preserving old conversations
-- ✅ **Offline-First** - AsyncStorage for session persistence
-- ✅ **Real-time Updates** - Fast Refresh for seamless development
+-  **AI-Powered FAQ Matching** - Instant responses using fuzzy matching algorithm
+-  **Bilingual Support** - Tamil & English language interface
+-  **Conversation History** - Persistent chat sessions stored permanently
+-  **Human Handoff** - Smooth escalation to human agents with contact form
+-  **Session Management** - Create new chats while preserving old conversations
+-  **Offline-First** - AsyncStorage for session persistence
+-  **Real-time Updates** - Fast Refresh for seamless development
 
-## 🏗️ Architecture
+##  Architecture
 
 **Tech Stack:**
 - **Frontend**: React Native (TypeScript)
@@ -30,7 +30,7 @@ Django REST API
 PostgreSQL Database (181 FAQs)
 ```
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have:
 
@@ -40,9 +40,9 @@ Before you begin, ensure you have:
 - **Backend API** running (see `../backend/README.md`)
 - **Java JDK** 11+ (for Android builds)
 
-> 💡 Complete setup guide: [React Native Environment Setup](https://reactnative.dev/docs/set-up-your-environment)
+>  Complete setup guide: [React Native Environment Setup](https://reactnative.dev/docs/set-up-your-environment)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Step 1: Install Dependencies
 
@@ -192,7 +192,7 @@ npm run lint
 - **Reload App**: Press <kbd>R</kbd> twice
 - **Debug JS**: Chrome DevTools or Flipper
 
-## 📱 Building for Production
+##  Building for Production
 
 ### Android APK
 
@@ -226,7 +226,7 @@ open ios/AstroTamilAssistant.xcworkspace
 2. Configure signing in Xcode
 3. Update version/build number
 
-## 🧪 Testing
+##  Testing
 
 ### Backend API Connection Test
 
@@ -249,7 +249,7 @@ open ios/AstroTamilAssistant.xcworkspace
 # 6. Check backend admin for new ticket
 ```
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -288,24 +288,17 @@ npm install
 npm start -- --reset-cache
 ```
 
-## 📚 Additional Resources
+##  Additional Resources
 
 - **Main Documentation**: `../README.md`
 - **Backend Setup**: See backend folder
 - **Deployment Guide**: `../DIGITAL_OCEAN_DEPLOYMENT.md`
 - **AI Instructions**: `../.github/copilot-instructions.md`
 
-## 🆘 Support
+##  Support
 
 - **React Native Docs**: https://reactnative.dev/docs/getting-started
 - **Troubleshooting**: https://reactnative.dev/docs/troubleshooting
 - **Android Setup**: `../ANDROID_SETUP.md`
 - **Backend API**: http://localhost:8000/admin/ (development)
 
-## 📄 License
-
-Proprietary - AstroTamil Platform
-
----
-
-**Built with ❤️ for AstroTamil customers**
