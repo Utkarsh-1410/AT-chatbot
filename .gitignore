@@ -73,3 +73,32 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Python / Django
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.sqlite3
+*.db
+.env
+.venv
+db.sqlite3
+staticfiles/
+mediafiles/
+
+# Build artifacts
+.bundle/
+*.log
+
+# Development documentation (keep only main docs)
+*PHASE*.md
+*COMPLETION*.md
+*IMPLEMENTATION*.md
+*QUICKSTART*.md
+*ANDROID_SETUP*.md
